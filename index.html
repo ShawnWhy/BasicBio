@@ -15,25 +15,45 @@
      }
      body{
          text-align:center;
-         background-color:cadetblue;
+         background-image:url("Capture.png");
          font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
      }
      #image1{
-         width:"200p%";
-         height:"20p%";
+         width: 200px;
+         height: 2000px;
+         border: 20px double red;
+         margin: 30px;
+         object-fit:cover;
+         
      }
 
      #mainSection,#contactSection{
-         float:left;
+         background-color:darkcyan;
+         border:30px solid  blueviolet;
+         padding:5px;
+         margin: 200px 30px 1px 1000px;
+         float:center;
 
      }
 
      .infosection{
          color:coral;
      }
+     #question{
+         background-color:cornflowerblue;
+     }
 
-     /*comments*/
+     /*h1 {
+  border: 5px solid red;
+}
+
+h2 {
+  border: 4px dotted blue;
+}
+
+div {
+  border: double;*/
 
 
 
@@ -47,8 +67,8 @@
     <div>
         <section id="mainSection">
             <h2>Shawn Why</h2>
-            <img id="image1" src="capture.png" >
-                <p class="infosection">I like to draw and stuff and sometimes I like to take a nap</p>
+            <img id="image1" src="capture.png">
+                <p class="infosection"><em>I like to draw and stuff and sometimes I like to take a nap</em></p>
             </section>
 
         <section id="contact section">
@@ -60,10 +80,9 @@
                 <li><a href="http://www.linkedin.com">LINKEDIN</a></li>
             </ul>
 
-            <iframe src="www.w3schools.com" height="200px" width="400px" scrolling="yes" alt="nothing here"></iframe>
-<div>
-        whats your name dude?<input id="input" type="text" name="dude"></input>
-       
+         
+<div id="question">
+        whats your name dude?<input id="input" type="text" name="dude"></input>      
 
 
 
