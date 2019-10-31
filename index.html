@@ -4,13 +4,39 @@
     <title>this is a basic bio page</title>
     <style>
      h1{
-         color:aquamarine
+         color:darkblue;
+         text-align: center;
      }
 
      h2{
 
         font-size: 200%;
+        text-align: center;
      }
+     body{
+         text-align:center;
+         background-color:cadetblue;
+         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+     }
+     #image1{
+         width:"200p%";
+         height:"20p%";
+     }
+
+     #mainSection,#contactSection{
+         float:left;
+
+     }
+
+     .infosection{
+         color:coral;
+     }
+
+     /*comments*/
+
+
+
     </style>
 </head>
 
@@ -19,14 +45,14 @@
         <h1>This is a Bio Page</h1>
     </header>
     <div>
-        <section>
+        <section id="mainSection">
             <h2>Shawn Why</h2>
-            <img src="capture.png">
-                <p>I like to draw and stuff</p>
+            <img id="image1" src="capture.png" >
+                <p class="infosection">I like to draw and stuff and sometimes I like to take a nap</p>
             </section>
 
-        <section>
-            <h2><strong>My fake address</strong></h2>
+        <section id="contact section">
+            <h2 class="infosection"><strong>My fake address</strong></h2>
             <ul>
 
                 <li>email:fakeemail@gmail.com</li>
@@ -34,10 +60,16 @@
                 <li><a href="http://www.linkedin.com">LINKEDIN</a></li>
             </ul>
 
+            <iframe src="www.w3schools.com" height="200px" width="400px" scrolling="yes" alt="nothing here"></iframe>
+<div>
+        whats your name dude?<input id="input" type="text" name="dude"></input>
+       
 
 
 
-        </section>
+
+</div>
+
 
         
 
